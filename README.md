@@ -4,7 +4,7 @@ The damn vulnerable apollo caching based on the apollo tutorial with little twea
 Based on:
 https://github.com/apollographql/fullstack-tutorial
 
-Caching issues:
+### Caching issues:
 - Apollo-client stores passwords in in-memory cache, potentially leading to stealing the password through XSS.
 - Apollo-client do not clear the in-memory cache upon user's logout, potentially exposing the user's data stored in in-memory cache to users of the same device.
 - Apollo-client persist a in-memory cache in local storage, potentially expose user's private data to leakage.
@@ -14,7 +14,7 @@ Caching issues:
 For full issues write-up, refer to the following blog post:
 LINK
 
-To run:
+### To run:
 1) Open first terminal, then:
 ```
 cd client && npm install && npm start
