@@ -13,3 +13,13 @@ Caching issues:
 
 For full issues write-up, refer to the following blog post:
 LINK
+
+To run:
+1) Open first terminal, then:
+```
+cd client && npm install && npm start
+```
+2) Open second terminal, then:
+```
+cd server && npm install && npm start
+```
