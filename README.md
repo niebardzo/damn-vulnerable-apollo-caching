@@ -12,7 +12,7 @@ https://github.com/apollographql/fullstack-tutorial
 
 
 For full issues write-up, refer to the following blog post:
-LINK
+https://niebardzo.github.io/2021-04-26-apollo-caching/
 
 ### To run:
 1) Open first terminal, then:
